@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c8029bd1b0bf734caa628a6145ef7fa, type: 3}
+  m_Name: BlazeAudioScriptable
+  m_EditorClassIdentifier: 
+  normalState:
+  - {fileID: 8300000, guid: ea5e90d51e380e8478de35f7e8aea49a, type: 3}
+  - {fileID: 8300000, guid: 35cf2ce79d1e46d4ea4756fb1bac9543, type: 3}
+  alertState:
+  - {fileID: 8300000, guid: ea5e90d51e380e8478de35f7e8aea49a, type: 3}
+  - {fileID: 8300000, guid: 35cf2ce79d1e46d4ea4756fb1bac9543, type: 3}
+  returningToNormalState:
+  - {fileID: 8300000, guid: c45db12db19b6ea4aa5aa0816efe5058, type: 3}
+  surprisedState:
+  - {fileID: 8300000, guid: 879a42c33e49e03478df7435c63b4920, type: 3}
+  attacks:
+  - {fileID: 8300000, guid: 5cb62bfbf05e04d4db174bf7577911b6, type: 3}
+  - {fileID: 8300000, guid: 90fa6b646c25d2648ad8d9d699bc91a1, type: 3}
+  attackIdle: []
+  moveToAttack: []
+  chase: []
+  returnPatrol:
+  - {fileID: 8300000, guid: c45db12db19b6ea4aa5aa0816efe5058, type: 3}
+  duringShooting: []
+  moveToShoot: []
+  goingToCover: []
+  distracted:
+  - {fileID: 8300000, guid: fa8b9a187535cd6449a8ca9c2df872b7, type: 3}
+  - {fileID: 8300000, guid: 699d768297a9baf49b94f47edb3c4eea, type: 3}
+  - {fileID: 8300000, guid: cb5a69469dfefb84582a16697d2b5d1d, type: 3}
+  distractionCheckLocation:
+  - {fileID: 8300000, guid: 281edf732ab8fa44a8e4d27508f7ad59, type: 3}
+  searchStart:
+  - {fileID: 8300000, guid: fa8b9a187535cd6449a8ca9c2df872b7, type: 3}
+  searchEnd:
+  - {fileID: 8300000, guid: c45db12db19b6ea4aa5aa0816efe5058, type: 3}
+  hit:
+  - {fileID: 8300000, guid: 3c4c77bd4b3be534dbca23027dc7a0de, type: 3}
+  - {fileID: 8300000, guid: ca67c5a062483e647bc00a5693196dd7, type: 3}
+  death:
+  - {fileID: 8300000, guid: bf17fe57c495b3b4b9487e424e55fe6f, type: 3}
+  - {fileID: 8300000, guid: 84b6e1bd36c17444b9941d1883b59f03, type: 3}
+  alertTags:
+  - {fileID: 8300000, guid: 6816d08006e454e48841bf1a89ea91be, type: 3}
+  fleeing: []
+  companionIdleAndWander: []
+  companionOnFollow: []
+  companionOnStop: []
